@@ -1,0 +1,24 @@
+{
+    "name": "microbot综合追踪",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "wdcm_tmp": "github:gousem/wdcm_tmp#6b5ae0a6ab26d4928761db1ac5b23b94ee45e70f",
+        "microbot": "github:hiwonder/microbot#eb9b22f0f171759e09008ae8f7ecfa37d8527a59",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
